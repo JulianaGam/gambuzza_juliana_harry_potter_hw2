@@ -1,17 +1,22 @@
-Harry Potter 
-Which is your favorite character?
+**Harry Potter**
+which one is yuo favorite?
 
-Contribuing
-Fork it!
-Create your feature branch: git checkout -b my-new-feature
-Commit your changes: git commit -am 'Add some feature'
-Push to the branch: git push origin my-new-feature
-Submit a pull request :D
-Credits
+**CONTRIBUTING**
+1. Fork it!
+2. Create your feature branch: git checkout -b my-new-feature
+3. Commit your changes: git commit -am 'Add some feature'
+4. Push to the branch: git push origin my-new-feature
+5. Submit a pull request :D
+
+**HISTORY**
+
+octoober 30, 2024
+
+**CREDITS**
+
 Juliana Gambuzza
-
-License
-MIT
-
-References
+ 
+**License**
+MIT 
+**References**
 https://harrypotter.fandom.com/wiki/Main_Page
