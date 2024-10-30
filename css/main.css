@@ -1,0 +1,159 @@
+.hidden {
+    display: none;
+}
+html, body{
+    height: 100%;
+    }
+    
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    /* font-color is just color */
+    color: white;
+    padding: 0;
+    margin: 0;
+    }
+    header{
+        background-color:black;
+        padding: 10px 0;
+    } 
+    #main_logo{
+        width: 300px;
+        margin: 0 auto;
+        display: block;
+        box-shadow: 5px 5px 10px rgba(99, 99, 99, 0.5);
+     /*horizontal - vertical - shadow*/
+    }
+#Character_nav ul {
+        list-style-type: none; 
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+}
+#Character_nav ul li {
+    height: 300px;
+    margin: 10px 8px; /*top, bottom, left, right:*/;
+    background-color: black;
+    box-shadow: 0 255px 0 0 rgb(247, 237, 127) inset; 
+    
+    /* --------------  TRANSITION ---------------*/
+    transition: box-shadow 0.2s ease-in-out;
+}
+#Character_nav ul li h2 {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+#Character_nav ul li:hover{
+    box-shadow: 0 300px 0 0 rgb(247, 237, 127) inset; 
+}
+#Character_nav{
+    /*add an image as a background */
+    background-color: #631616;
+    background-image: url(../images/maraunders_map.png);
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+#Character_nav ul li a {
+    text-decoration: none;
+}
+.sprite{
+    width: 200px;
+    height: 250px;
+    background-image: url(../images/harry_potter_characters_sprite.png);
+}
+ /* move the photo horizontaly, just the photo not the position of the photo*/
+#hermione{
+    background-position: -200px 0;
+}
+#ron{
+    background-position: -400px 0; 
+}
+#dumbludore{
+    background-position: -600px 0; 
+}
+#snape{
+    background-position: -800px 0; 
+}
+#dobby{
+    background-position: -1000px 0; 
+}
+#harry:hover, #hermione:hover, #ron:hover, #dumbludore:hover, #snape:hover, #dobby:hover{
+    background-position-y: -250px; 
+}
+#instructions{
+    padding: 20px;
+    text-align: center;
+}
+#instructions h3 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 14px;
+}
+footer {
+    padding: 20px 0;
+    text-align: center;
+    background-color: rgb(76, 28, 28);
+    height:  80px;
+    position: sticky;
+    top: 100%;
+}
+.lightbox{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left:0;
+    background-color: rgba(0, 0, 0, 0.85);
+    background-image: url(../images/harry_wand.png);
+    background-repeat: no-repeat;
+    background-size: 55vh;
+    background-position: 100px bottom;
+    display: none;
+}
+
+.lightbox:target{
+    display:block;
+}
+#lightbox2{
+    background-image: url(../images/hermione_wand.png);
+}
+#lightbox3{
+    background-image: url(../images/ron_wand.png);
+}
+#lightbox4{
+    background-image: url(../images/dumbledore_wand.png);
+}
+#lightbox5{
+    background-image: url(../images/snape_wand.png);
+
+}
+#lightbox6{
+    background-image: url(../images/cute_doby.png);
+ 
+}
+.lightbox-close{
+    color: white;
+    font-size: 32px;
+    text-decoration: none;
+    font-weight: bolder;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.lightbox-close:hover { 
+    opacity: 0.5; color: rgb(245, 223, 100); 
+}
+
+.lightbox article {
+    width: 600px;
+    margin-left: 40%;
+    padding-top: 50px;
+}
+
+.lightbox p, .lightbox h3 {
+    text-align: left
+}
+.lightbox:target {
+    display: block;
+}
