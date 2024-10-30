@@ -1,5 +1,5 @@
 **Harry Potter**
-which one is yuo favorite?
+which one is your favorite?
 
 **CONTRIBUTING**
 1. Fork it!
