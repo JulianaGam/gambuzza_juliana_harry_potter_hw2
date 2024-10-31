@@ -1,11 +1,16 @@
-#Harry Potter
-##CSS sprite build
+# Harry Potter
+## CSS sprite build
+
 Which of this characters is your favorite?
-This repo is about the second homework assignment to demostrate the use of CSS and the lightbox.
+
+*This repo is about the second homework assignment to demostrate the use of CSS and the lightbox.*
+
 **INSTALLATION** 
 Not need it
+
 **USAGE**
 Index file in the browser of preference.
+
 **CONTRIBUTING**
 1. Fork it!
 2. Create your feature branch: git checkout -b my-new-feature
